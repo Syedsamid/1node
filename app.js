@@ -1,6 +1,7 @@
 
+const readline = require("readline-sync"); //* This is Es5 syntax for using npm packages
 
-const readline = require("readline-sync");
+// import readline from "readline-sync";   //* This is Es6 syntax for using npm packages
 
 let age = readline.questionInt("Enter your age? : ");
 console.log(`My age is ${age}`);
